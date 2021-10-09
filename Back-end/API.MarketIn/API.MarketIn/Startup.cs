@@ -40,6 +40,8 @@ namespace API.MarketIn
                 options.Password.RequireUppercase = false;
                 options.Password.RequireLowercase = false;
             });
+
+            services.AddCors();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -72,6 +74,8 @@ namespace API.MarketIn
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
             });
+
+            app.UseCors(builder => builder.WithOrigins("http://localhost:4200").AllowAnyHeader().AllowAnyMethod());
         }
     }
 }

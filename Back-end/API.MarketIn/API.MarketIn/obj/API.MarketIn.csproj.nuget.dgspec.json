@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Diogo\\Documents\\Workspace\\ProjectsFromCollege\\market-in\\Back-end\\API.MarketIn\\API.MarketIn\\API.MarketIn.csproj": {}
+    "C:\\Users\\Diogo\\Documents\\Workspace\\ProjectsFromCollege\\market-in-projeto\\Back-end\\API.MarketIn\\API.MarketIn\\API.MarketIn.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Diogo\\Documents\\Workspace\\ProjectsFromCollege\\market-in\\Back-end\\API.MarketIn\\API.MarketIn\\API.MarketIn.csproj": {
+    "C:\\Users\\Diogo\\Documents\\Workspace\\ProjectsFromCollege\\market-in-projeto\\Back-end\\API.MarketIn\\API.MarketIn\\API.MarketIn.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Diogo\\Documents\\Workspace\\ProjectsFromCollege\\market-in\\Back-end\\API.MarketIn\\API.MarketIn\\API.MarketIn.csproj",
+        "projectUniqueName": "C:\\Users\\Diogo\\Documents\\Workspace\\ProjectsFromCollege\\market-in-projeto\\Back-end\\API.MarketIn\\API.MarketIn\\API.MarketIn.csproj",
         "projectName": "API.MarketIn",
-        "projectPath": "C:\\Users\\Diogo\\Documents\\Workspace\\ProjectsFromCollege\\market-in\\Back-end\\API.MarketIn\\API.MarketIn\\API.MarketIn.csproj",
+        "projectPath": "C:\\Users\\Diogo\\Documents\\Workspace\\ProjectsFromCollege\\market-in-projeto\\Back-end\\API.MarketIn\\API.MarketIn\\API.MarketIn.csproj",
         "packagesPath": "C:\\Users\\Diogo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Diogo\\Documents\\Workspace\\ProjectsFromCollege\\market-in\\Back-end\\API.MarketIn\\API.MarketIn\\obj\\",
+        "outputPath": "C:\\Users\\Diogo\\Documents\\Workspace\\ProjectsFromCollege\\market-in-projeto\\Back-end\\API.MarketIn\\API.MarketIn\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Diogo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Cors": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.10, )"
