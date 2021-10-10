@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HD07WrAUMmR8VSECGXgIjYF9geMC2OQVUEUmDKseF12kQLbZLmEHgZrZQflue9vMEQePGFsw5AMbxpBEScnd2Q==",
+  "dgSpecHash": "NlhQda55cEuY/NU8PFZYOtm2U+KUjFMWWUe3LoODfs/a/xjWDBgyLtYyJZEj8YW+VgFvq7hrH60iDVB0rLGw8Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Diogo\\Documents\\Workspace\\ProjectsFromCollege\\market-in-projeto\\Back-end\\API.MarketIn\\API.MarketIn\\API.MarketIn.csproj",
+  "projectFilePath": "C:\\Workspace\\college-projects\\market-in\\Back-end\\API.MarketIn\\API.MarketIn\\API.MarketIn.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Diogo\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Diogo\\.nuget\\packages\\microsoft.aspnetcore.cors\\2.2.0\\microsoft.aspnetcore.cors.2.2.0.nupkg.sha512",

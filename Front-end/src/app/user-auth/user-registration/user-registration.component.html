@@ -16,16 +16,18 @@
         <div formGroupName="Passwords">
             <div class="box-input">
                 <label for="password">Enter a password</label>
-                <input type="password" placeholder="S0m3th1ng S#f3" formControlName="Password">
+                <input [(ngModel)]="password" type="password" placeholder="S0m3th1ng S#f3" formControlName="Password">
+                <!-- <span *ngIf="!hasNumber">* Your password most have a number</span> -->
             </div>
 
             <div class="box-input">
                 <label for="password">Repeat your password</label>
-                <input type="password" placeholder="S0m3th1ng S#f3" formControlName="ConfirmPassword">
+                <input [(ngModel)]="confirmPassword" (mouseleave) ="validateConfirmPassword()" type="password" placeholder="S0m3th1ng S#f3" formControlName="ConfirmPassword">
+                <span *ngIf="!bothPasswordsAreEqual && canShowEqualPasswordsMsg" class="alert-msg-pswd">* You have to digit the same password</span>
             </div>
         </div>
-
-        <button type="submit" >Register</button>
+        <span>Typing: {{ _password }}</span>
+        <button type="submit" [disabled] >Register</button>
     </form>
 
     <span>Already have an account? <br> <a href="/">Just log in!</a> </span>

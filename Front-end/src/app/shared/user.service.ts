@@ -21,9 +21,8 @@ export class UserService {
         })
     });
 
-
     register() {
-        debugger;
+        this.formModel.value.Password = this.formModel.value.Passwords.Password;
         return this.http.post(this.BASE_URI + 'applicationuser/register', this.formModel.value);
     }
 

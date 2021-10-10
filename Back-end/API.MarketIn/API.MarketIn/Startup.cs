@@ -58,6 +58,10 @@ namespace API.MarketIn
                 app.UseHsts();
             }
 
+            app.UseCors(builder =>
+            {
+                builder.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin();
+            });
 
             app.UseAuthentication();
             
@@ -75,7 +79,6 @@ namespace API.MarketIn
                     pattern: "{controller=Home}/{action=Index}/{id?}");
             });
 
-            app.UseCors(builder => builder.WithOrigins("http://localhost:4200").AllowAnyHeader().AllowAnyMethod());
         }
     }
 }

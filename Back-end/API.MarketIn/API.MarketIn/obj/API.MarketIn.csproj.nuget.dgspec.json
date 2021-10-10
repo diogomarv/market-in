@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Diogo\\Documents\\Workspace\\ProjectsFromCollege\\market-in-projeto\\Back-end\\API.MarketIn\\API.MarketIn\\API.MarketIn.csproj": {}
+    "C:\\Workspace\\college-projects\\market-in\\Back-end\\API.MarketIn\\API.MarketIn\\API.MarketIn.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Diogo\\Documents\\Workspace\\ProjectsFromCollege\\market-in-projeto\\Back-end\\API.MarketIn\\API.MarketIn\\API.MarketIn.csproj": {
+    "C:\\Workspace\\college-projects\\market-in\\Back-end\\API.MarketIn\\API.MarketIn\\API.MarketIn.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Diogo\\Documents\\Workspace\\ProjectsFromCollege\\market-in-projeto\\Back-end\\API.MarketIn\\API.MarketIn\\API.MarketIn.csproj",
+        "projectUniqueName": "C:\\Workspace\\college-projects\\market-in\\Back-end\\API.MarketIn\\API.MarketIn\\API.MarketIn.csproj",
         "projectName": "API.MarketIn",
-        "projectPath": "C:\\Users\\Diogo\\Documents\\Workspace\\ProjectsFromCollege\\market-in-projeto\\Back-end\\API.MarketIn\\API.MarketIn\\API.MarketIn.csproj",
+        "projectPath": "C:\\Workspace\\college-projects\\market-in\\Back-end\\API.MarketIn\\API.MarketIn\\API.MarketIn.csproj",
         "packagesPath": "C:\\Users\\Diogo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Diogo\\Documents\\Workspace\\ProjectsFromCollege\\market-in-projeto\\Back-end\\API.MarketIn\\API.MarketIn\\obj\\",
+        "outputPath": "C:\\Workspace\\college-projects\\market-in\\Back-end\\API.MarketIn\\API.MarketIn\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Diogo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -85,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
