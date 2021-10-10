@@ -20,7 +20,7 @@ export class UserRegistrationComponent implements OnInit {
   canShowEqualPasswordsMsg: boolean;
 
   ngOnInit(): void {
-    this.service.formModel.reset();
+    this.service.formModelRegister.reset();
   }
 
   public set password(content: string) {
