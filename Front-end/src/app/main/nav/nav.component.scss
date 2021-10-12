@@ -1,0 +1,37 @@
+nav{
+    background-color: rgb(7, 5, 5);
+    height: 80px;
+    width: 100%;
+    // display: flex;
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1400px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 55px;
+}
+
+.options-menu, .configs-menu{
+    display: inline-block;
+}
+
+.options-menu ul li a{
+    margin-right: 30px;
+    transition: 0.3s;
+}
+
+.options-menu ul li a:hover{
+    color: beige;
+    transition: 0.3s;
+}
+
+

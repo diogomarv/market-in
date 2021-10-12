@@ -34,13 +34,6 @@ namespace API.MarketIn
             services.AddDefaultIdentity<ApplicationUser>()
                 .AddEntityFrameworkStores<AuthenticationContext>();
 
-            services.Configure<IdentityOptions>(options =>
-            {
-                options.Password.RequireNonAlphanumeric = false;
-                options.Password.RequireUppercase = false;
-                options.Password.RequireLowercase = false;
-            });
-
             services.AddCors();
         }
 

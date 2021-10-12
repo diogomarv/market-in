@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { UserService } from 'src/app/shared/user.service';
+import { ToastrService } from 'ngx-toastr';
+import { Router, RouterModule, Routes } from '@angular/router';
 
 @Component({
   selector: 'app-user-registration',
@@ -8,7 +10,7 @@ import { UserService } from 'src/app/shared/user.service';
 })
 export class UserRegistrationComponent implements OnInit {
 
-  constructor(public service: UserService) { }
+  constructor(public service: UserService, private toastr: ToastrService, private router: Router) { }
 
   // Variables for validate password
   _password: string;
@@ -49,10 +51,27 @@ export class UserRegistrationComponent implements OnInit {
   }
 
   onSubmit() {
-    this.service.register().subscribe(response => {
-      console.log(response);
-    }, error => {
-      console.log(error);
+    this.service.register().subscribe((response: any) => {
+
+      if (response.succeeded) {
+        this.service.formModelRegister.reset();
+        this.toastr.success('Successfully registered user!', "Welcome!")
+        this.router.navigate(['/']);
+
+      }
+
+      if (!response.succeeded) {
+
+        response.errors.forEach((error: any) => {
+          
+          if (error.code == 'InvalidUserName')
+            this.toastr.error("Invalid username!")
+
+
+        });
+
+        this.toastr.error("Ops! E-mail already registered. Do you want to log-in?")
+      }
     })
   }
 

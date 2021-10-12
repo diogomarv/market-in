@@ -28,7 +28,7 @@ namespace API.MarketIn.Controllers
             var applicationUser = new ApplicationUser()
             {
                 UserName = user.UserName,
-                Email = user.Email,
+                Email = user.Email
             };
 
             try
